@@ -1,0 +1,1 @@
+cmd_/home/atom/college/device_drivers/code/hello_kernel/atom.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/atom/college/device_drivers/code/hello_kernel/atom.ko /home/atom/college/device_drivers/code/hello_kernel/atom.o /home/atom/college/device_drivers/code/hello_kernel/atom.mod.o

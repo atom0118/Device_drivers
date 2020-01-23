@@ -1,0 +1,1 @@
+cmd_/home/atom/my/device_drivers/new/code/module_param/ghost.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/atom/my/device_drivers/new/code/module_param/ghost.ko /home/atom/my/device_drivers/new/code/module_param/ghost.o /home/atom/my/device_drivers/new/code/module_param/ghost.mod.o

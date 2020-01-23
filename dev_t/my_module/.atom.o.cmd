@@ -1,0 +1,1 @@
+cmd_/home/atom/my/device_drivers/new/code/dev_t/atom.o := ld -m elf_x86_64  -z max-page-size=0x200000   -r -o /home/atom/my/device_drivers/new/code/dev_t/atom.o /home/atom/my/device_drivers/new/code/dev_t/init.o 
