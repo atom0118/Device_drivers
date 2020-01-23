@@ -1,0 +1,1 @@
+cmd_/home/atom/my/device_drivers/new/code/proc/atom.o := ld -m elf_x86_64  -z max-page-size=0x200000   -r -o /home/atom/my/device_drivers/new/code/proc/atom.o /home/atom/my/device_drivers/new/code/proc/init.o /home/atom/my/device_drivers/new/code/proc/proc_open.o 

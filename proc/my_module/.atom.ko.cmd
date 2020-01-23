@@ -1,0 +1,1 @@
+cmd_/home/atom/my/device_drivers/new/code/proc/atom.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/atom/my/device_drivers/new/code/proc/atom.ko /home/atom/my/device_drivers/new/code/proc/atom.o /home/atom/my/device_drivers/new/code/proc/atom.mod.o
