@@ -18,7 +18,7 @@ static const struct kernel_param_ops param_ops = {
 };
 
 
-module_param(num,int,0644);
+module_param(num,int,S_IWUSR);
 //module_param(num,int,0770);
 
 static char *name = "Atul";

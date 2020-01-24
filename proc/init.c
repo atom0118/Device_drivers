@@ -10,10 +10,11 @@ module_exit(driver_exit);
 /* procfs file operations mapping */
 struct file_operations proc_fops = { 
     .open = proc_open,
-//  .read = proc_read,
+    .read = proc_read,
 //  .write = proc_write,
 //  .release = proc_release,
 };
+
 
 static __init int driver_init(void)
 {
